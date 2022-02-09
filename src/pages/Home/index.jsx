@@ -1,9 +1,10 @@
 import * as S from "./Home.style";
+import Header from "../../components/Header";
 
 const Home = () => {
   return (
     <S.Container>
-      <h1> HOME </h1>
+      <Header mode="dark" />
     </S.Container>
   );
 };
