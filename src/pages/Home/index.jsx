@@ -1,5 +1,11 @@
+import * as S from "./Home.style";
+
 const Home = () => {
-  return <h1> HOME </h1>;
+  return (
+    <S.Container>
+      <h1> HOME </h1>
+    </S.Container>
+  );
 };
 
 export default Home;
