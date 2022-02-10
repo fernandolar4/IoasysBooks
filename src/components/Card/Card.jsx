@@ -14,6 +14,10 @@ const Card = ({
     </S.ImageContainer>
     <div className="content">
       <S.Title>{title ?? "Livro desconhecido"}</S.Title>
+      <S.Authors>{authors.join(", ") ?? "Autores desconhecidos"}</S.Authors>
+      <S.Description>{pageCount} páginas</S.Description>
+      <S.Description>Editora {publisher}</S.Description>
+      <S.Description>Publicado em {published}</S.Description>
     </div>
   </S.Container>
 );
